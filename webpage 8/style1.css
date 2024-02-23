@@ -1,0 +1,508 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+center{
+    background: black;
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(image/france.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#menu{
+    height: 120px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+#logo{
+    height: 120px;
+    width: 60%;
+    /* border: 1px solid black; */
+}
+#logo h1{
+    padding-left: 20%;
+    line-height: 120px;
+    color: white;
+}
+#nav{
+    height: 120px;
+    width: 39%;
+    /* border: 1px solid black; */
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 22px;
+    padding: 20px;
+    text-decoration: none;
+    line-height: 100px;
+    color: white;
+    transition: 2s;
+}
+a:hover{
+    color: hotpink;
+}
+#c{
+    background: hotpink;
+    /* border: 1px solid black; */
+    padding: 8px;
+    border-radius: 15px;
+
+}
+#c:hover{
+    color: black;
+}
+#hdr-text{
+    height: 200px;
+    width: 50%;
+    /* border: 1px solid black; */
+    /* background: white; */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+#hdr-h2{
+    font-size: 40px;
+    /* line-height: 50px; */
+    font-family: 'Merriweather', serif;
+    color: white;
+    position: relative;
+}
+#hdr-h2::before{
+    content: " ";
+    height: 5px;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+                
+    display: block;
+    margin: 0;
+    background: red;
+    transition: 5s;
+}
+#hdr-h2:hover{
+    width: 100%;
+}
+#hdr-h3{
+    font-size: 30px;
+    line-height: 80px;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+#hdr-txt-a{
+    font-size: 25px;
+    background: violet;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 9px;
+    transition: 2s;
+}
+#hdr-txt-a:hover{
+    color: black;
+    font-size: 27px;
+}
+#se1{
+    height: 85vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 15px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+#se1 h6{
+    font-size: 50px;
+    font-weight: bold;
+}
+#abt-main{
+    height: 75vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#abt-img{
+    height: 75vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#abt-img img{
+    height: 70%;
+    width: 80%;
+    margin-bottom: 15px;
+}
+#abt-main p{
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#abt-main a{
+    background: violet;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+#se2{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    background-image: url(image/l1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#se2-txt{
+    height: 60vh;
+    width: 60%;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+#se2-txt h1{
+    font-size: 50px;
+    color: black;
+    font-family: serif;
+}
+#se2-txt p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#se2-txt a{
+    background: darkorchid;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+#se4{
+    height: 60vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    display: flex;
+}
+#se3-txt{
+    height: 50vh;
+    width: 45%;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#se3-txt h1{
+    font-size: 50px;
+    font-family: serif;
+    color: darkslateblue;
+}
+#se3-txt p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#se3-txt a{
+    background: sienna;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+#se3-image{
+    height: 50vh;
+    width: 45%;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+}
+#se3-image image{
+    height: 50vh;
+    flex-basis: 20%;
+}
+#image img{
+    /* flex-wrap: wrap; */
+    height: 100%;
+    width: 100%;
+}
+#se5{
+    height: 20vh;
+    width: 100%;
+    background: black;
+}
+#ft-main{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+#ft-main{
+    font-size: 20px;
+}
+
+
+@media (min-width:720px) and (max-width:980px)
+ {
+    nav ul li a{
+            font-size: 15px;
+            padding: 5px;
+            line-height: 120px;
+    }
+    #se2{
+        margin-top: 50px;
+    }
+}
+
+@media (min-width:480px) and (max-width:720px)
+ {
+    nav ul li a{
+        padding: 1px;
+        font-size: 15px;
+    }
+    #se4 h1{
+        font-size: 25px;
+    }
+    #se4 p{
+        font-size: 12px;
+    }
+    #se4 a{
+        padding: 2px;
+        font-size: 12px;
+    }
+    footer{
+        height: auto;
+        width: auto;
+    }
+    #ft-main{
+        height: auto;
+        width: auto;
+    }
+    #ft1{
+        height: auto;
+        width: auto;
+    }
+    #se2{
+        margin-top: 150px;
+    }
+}
+@media (min-width:360px) and (max-width:480px)
+ {
+    header{
+        height: 500px;
+        width: auto;
+    }
+    #logo{
+        width: 20%;
+    }
+    #logo h1{
+        font-size: 20px;
+    }
+    nav{
+        margin-left: 40px;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    nav ul li a{
+        padding: 0;
+        font-size: 15px;
+        line-height: 120px;
+    }
+    #hdr-text{
+        height: auto;
+        width: auto;
+    }
+    #hdr-h2{
+        font-size: 20px;
+    }
+    #hdr-h3{
+        font-size: 18px;
+    }
+    #hdr-text a{
+        padding: 2px;
+        font-size: 20px;
+    }
+    #se1{
+        height: auto;
+        width: auto;
+    }
+    #abt-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    #abt-main h2{
+        font-size: 20px;
+    }
+    #abt-main p{
+        font-size: 15px;
+    }
+    #abt-main a{
+        padding: 2px;
+    }
+    #se2 h1{
+        font-size: 30px;
+    }
+    #se2 p{
+        font-size: 15px;
+    }
+    #se2 a{
+        padding: 2px;
+    }
+    #se3-txt h1{
+        font-size: 20px;
+    }
+    #se3-txt p{
+        font-size: 15px;
+    }
+    #se3-txt a{
+        padding: 2px;
+    }
+    #se5{
+        height: auto;
+        width: auto;
+    }
+    #ft-main{
+        height: auto;
+        width: auto;
+    }
+    #ft1{
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (min-width:0px) and (max-width:360px)
+ {
+    header{
+        height: 500px;
+        width: auto;
+    }
+    #logo{
+        width: 10%;
+    }
+    #logo h1{
+        font-size: 10px;
+    }
+    nav ul li{
+        display: inline-block;
+
+    }
+    nav ul li a{
+        font-size: 8px;
+        padding: 0;
+        margin-left: 0px;
+        line-height: 120px;
+    }
+    #hdr-text #hdr-h2{
+            font-size: 25px;
+    }
+    #hdr-text #hdr-h3{
+        font-size: 18px;
+    }
+    #hdr-text a{
+        padding: 2px;
+        font-size: 20px;
+    }
+    #se1{
+        height: auto;
+        width: auto;
+    }
+    #hdr-text{
+        left: 0;
+    }
+    #abt-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    #f2{
+        height: auto;
+        width: auto;
+    }
+    #abt-img{
+        height: auto;
+        width: auto;
+        margin-top: 10px;
+    }
+    #abt-img h1{
+        font-size: 25px;
+
+    }
+    #abt-img p{
+        font-size: 15px;
+    }
+    #abt-img a{
+        font-size: 15px;
+        padding: 5px;
+    }
+    #se2 h1{
+        font-size: 25px;
+    }
+    #se2 p{
+        font-size: 18px
+    }
+    #se2 a{
+        padding: 2px;
+        font-size: 18px;
+    }
+    #se4{
+        height: auto;
+        flex-direction: column;
+        width: auto;
+    }
+    #se3-txt{
+        height: auto;
+        width: auto;
+    }
+    #se3-image{
+        height: auto;
+        width: auto;
+    }
+    #image{
+        height: auto;
+        width: 100%;
+    }
+    #se5{
+        height: auto;
+        width: auto;
+    }
+    #ft-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    #ft1{
+        margin-left: 10%;
+    }
+
+}

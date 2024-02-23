@@ -1,0 +1,894 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(img1/hero-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+#main1{
+    height: 120px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+#main1 #b1{
+    display: none;
+}
+#main1 #b2 {
+    display: none;
+}
+#logo{
+    font-family: 'Alkatra', cursive;
+    font-size: 35px;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+#button i{ 
+    padding: 15px;
+    font-size: 25px;
+}
+#button #b1{
+    background: yellow;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 15px;
+    color: black;
+}
+#txt{
+    height: 30vh;
+    width: 30%;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: white;
+}
+ #txt h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#txt p{
+    margin-bottom: 20px;
+}
+#bq{
+    background: rgb(237, 237, 8);
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+#abt{
+    height: 30vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+#main{
+    height: 30vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#f1{
+    height: 30vh;
+    width: 40%;
+    /* border: 1px solid black; */
+    background-color: black;
+    display: flex;
+    /* display: inline-block; */
+    
+}
+#f1 img{
+    height: 30vh;
+    width: 40%;
+    border: 5px solid yellow;
+    border-radius: 50%;
+    
+}
+#f1 h1{
+    font-family: 'Alkatra', cursive;
+    color: white;
+    margin-top: 50px;
+    /* display: block; */
+
+}
+#f1 a{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background: yellow;
+    color: black;
+    text-decoration: none;
+}
+#mn{
+    height: 160vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+#mn h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+#mn span{
+    font-size: 20px;
+    /* padding: 15px; */
+    /* text-align: center; */
+    margin-left: 41%;
+}
+#mn-main{
+    height: 150vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+}
+#f{
+    height: 45vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#t{
+    height: 45vh;
+    width: 25%;
+    /* border: 1px solid black; */
+    
+    /* padding-top: 10px; */
+}
+#f img{
+        height: 25vh;
+        width: 100%;
+        border-radius: 0px 0px 30px 30px;
+        background: darkgrey;
+}
+#t {
+    /* font-size: 22px; */
+    background: rgb(6, 112, 116);
+    color: white;
+}
+#t h1{
+    font-size: 20px;
+    /* color: ; */
+    margin-bottom: 20px;
+}
+#t p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#t #s1{
+    font-size: 20px;
+    /* text-align: end; */
+}
+#asdf{
+    font-size: 25px;
+    background: yellow;
+    color: black;
+    /* text-align: center; */
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 45%;
+    border-radius: 15px;
+}
+#se1{
+    height: 60vh;
+    width: 100%;
+    /* background-image: url(img1/about-img.png); */
+    border: 1px solid black;
+    background: black;
+    /* background-size: cover; */
+    margin-top: 20px;
+}
+#se1-main{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+#s{
+    height: 50vh;
+    width: 40%;
+}
+#s img{
+    height: 100%;
+    width: 80%;
+}
+#s h1{
+    margin-top: 80px;
+    font-size: 25px;
+    font-family: 'Alkatra', cursive;
+}
+#s p{
+    /* font-size: 20px; */
+    margin-bottom: 20px;
+}
+#s a{
+    background: rgb(238, 238, 8);
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#form{
+    height: 65vh;
+    width: 100%;
+    border: 1px solid black;
+}
+#main-f{
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#ff{
+    height: 50vh;
+    width: 45%;
+}
+#ff img{
+    height: 85%;
+    width: 100%;
+    margin-top: 120px;
+}
+#ff h1{
+    font-family: 'Alkatra', cursive;
+}
+#ff form{
+    margin-top: 100px;
+}
+#ff input{
+    width: 500px;
+    height: 40px;
+}
+#ff select{
+    width: 500px;
+    height: 40px;
+}
+#ff a{
+    background: yellow;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+#rw{
+    height: 45vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#rw-main{
+    height: 45vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#r{
+    height: 45vh;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+#r p{
+    margin-top: 20px;
+}
+#r h1{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#r h2{
+    font-size: 20px;
+}
+#r img{
+    height: 20vh;
+    width: 40%;
+    border: 5px solid yellow;
+    border-radius: 50%;
+}
+footer{
+    height: 20vh;
+    width: 100%;
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+#main-fot{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#f5 h1{
+    font-size: 25px;
+    font-family: 'Alkatra', cursive;
+}
+@media (min-width:720px)  and (max-width:980px)
+ {
+    #mn{
+        height: auto;
+        width: auto;
+    }
+    #mn-main{
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    #f{
+        height: auto;
+        width: auto;
+    }
+    #t{
+        height: auto;
+        /* width: auto; */
+    }
+    #t p{
+        font-size: 12px;
+    }
+    #asdf{
+        padding: 2px;
+        font-size: 18px;
+        /* margin-top: 18px; */
+    }
+    #form{
+        height: auto;
+        width: auto;
+    }
+    #ff{
+      height: auto;
+      width: 100%;
+    }
+    #ff input{
+      height: 60px;
+      width: 100px;
+      border: 1px solid black;
+    }
+    #ff select{
+      height: 60px;
+      width: 50px;
+      border: 1px solid black;
+    }
+    #main-f{
+        height: auto;
+        width: auto;
+    }
+    #ff{
+        height: auto;
+        width: auto;
+    }
+    #ff input{
+        width: 400px;
+    }
+   #ff select{
+
+        width: 400px;
+    }
+    #rw{
+        height: auto;
+        width: auto;
+    }
+    #rw-main{
+        height: auto;
+        width: auto;
+    }
+    #r{
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (min-width:480px)  and (max-width:720px)
+{
+ header{
+    height: 500px;
+    width: auto;
+    position: relative;
+ }   
+    #main1{
+        height: auto;
+        width: auto;
+        
+    }
+    #logo{
+        font-size: 40px;
+    }
+    #main1 #b1{
+            display: block;
+    }
+    #main1 #b2{
+        display: block;
+    }
+    nav{
+        position: absolute;
+        top: 15%;
+        display: none;
+        background: grey;
+        /* display: block;   */
+      }
+      nav ul li{
+        display: block;
+      }
+      #txt{
+        height: auto;
+        width: auto;
+      }
+      #abt{
+        height: auto;
+        width: auto;
+      }
+      #main{
+        height: auto;
+        width: auto;
+        /* flex-direction: column; */
+      }
+      #f1{
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+      }
+      #mn{
+        height: auto;
+        width: auto;
+      }
+      #mn span{
+        font-size: 10px;
+        /* margin-right: 50px; */
+      }
+      #mn-main{
+        height: auto;
+        width: auto;
+      }
+      #f{
+        height: auto;
+        width: auto;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+      }
+      #t{
+        height: auto;
+        width: 45%;
+        margin-bottom: 10px;
+      }
+      #asdf{
+        margin-top: 10px;
+        padding: 2px;
+        font-size: 18px;
+      }
+      #se1{
+        height: auto;
+        width: auto;
+        margin-bottom: 20px;
+      }
+      #se1-main{
+        height: auto;
+        width: auto;
+      }
+      #s{
+        height: auto;
+        width: 80%;
+
+      }
+      #s h1{
+        font-size: 25px;
+      }
+      #s p{
+        font-size: 15px;
+      }
+      #s a{
+        padding: 2px;
+        font-size: 15px;    
+      }
+      #form{
+        height: auto;
+        width: auto;
+        margin-bottom: 20px;
+      }
+      #main-f{
+        height: auto;
+        width: auto;
+        /* flex-direction: column; */
+      }
+      #ff{
+        height: auto;
+        width: 100%;
+      }
+      #ff input{
+        width: 250px;
+      }
+      #ff select{
+        width: 250px;
+      }
+      #rw{
+        height: auto;
+        width: auto;
+      }
+      #rw-main{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+      }
+      #r{
+        height: auto;
+        width: 70%;
+        /* border: 1px solid grey; */
+      }
+      footer{
+        height: auto;
+        width: auto;
+      }
+      #main-fot{
+        height: auto;
+        width: auto;
+        /* flex-direction: column; */
+      }
+      #f5{
+        height: auto;
+        width: auto;
+      }
+      #f5 h1{
+        font-size: 20px;
+      }
+      #f5 p{
+        font-size: 13px;
+      }
+}
+
+@media (min-width:360px)  and (max-width:480px)
+{
+ header{
+    height: 500px;
+    width: auto;
+    position: relative;
+ }   
+    #main1{
+        height: auto;
+        width: auto;
+        
+    }
+    #logo{
+        font-size: 40px;
+    }
+    #main1 #b1{
+            display: block;
+    }
+    #main1 #b2{
+        display: block;
+    }
+    nav{
+        position: absolute;
+        top: 15%;
+        display: none;
+        background: grey;
+        /* display: block;   */
+      }
+      nav ul li{
+        display: block;
+      }
+      #txt{
+        height: auto;
+        width: auto;
+      }
+      #txt h1{
+        font-size: 25px;
+      }
+      #txt p{
+        font-size: 15px;
+      }
+      #txt a{
+        padding: 2px;
+        font-size: 18px;
+      }
+      #abt{
+        height: auto;
+        width: auto;
+      }
+      #main{
+        height: auto;
+        width: auto;
+        margin: 0;
+        flex-direction: column-reverse;
+      }
+      #f1{
+        height: auto;
+        width: 80%;
+        margin-top: 10px;
+      }
+      #mn{
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+      }
+      #mn span{
+        font-size: 10px;
+        /* margin-right: 50px; */
+      }
+      #mn-main{
+        height: auto;
+        width: auto;
+        margin: 0;
+      }
+      #f{
+        height: auto;
+        width: auto;
+        flex-direction: column-reverse;
+        margin: 0;
+      }
+      #t{
+        height: auto;
+        width: 90%;
+        margin-bottom: 10px;
+      }
+      #asdf{
+        margin-top: 10px;
+        padding: 2px;
+        font-size: 18px;
+      }
+      #se1{
+        height: auto;
+        width: auto;
+        margin-top: 30px;
+      }
+      #se1-main{
+        height: auto;
+        width: auto;
+      }
+      #s{
+        height: auto;
+        /* width: auto; */
+      }
+      #s h1{
+        font-size: 20px;
+      }
+      #s p{
+        font-size: 12px;
+      }
+      #s a{
+        padding: 2px;
+        font-size: 15px;
+      }
+      #form{
+        height: auto;
+        width: auto;
+      }
+      #main-f{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin: 0;
+      }
+      #ff{
+        height: auto;
+        width: 80%;
+      }
+      #ff input{
+        width: 420px;
+      }
+      #ff select{
+        width: 420px;
+      }
+      #rw{
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+      }
+      #rw-main{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+      }
+      #r{
+        height: auto;
+        width: 80%;
+      }
+      footer{
+        height: auto;
+        width: auto;
+        margin-top: 30px;
+      }
+      #main-fot{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+      }
+      #f5{
+        height: auto;
+        width: 90%;
+      }
+}
+
+@media (min-width:0px)  and (max-width:360px)
+{
+ header{
+    height: 500px;
+    width: auto;
+    position: relative;
+ }   
+    #main1{
+        height: auto;
+        width: auto;
+        
+    }
+    #logo{
+        font-size: 40px;
+    }
+    #main1 #b1{
+            display: block;
+    }
+    #main1 #b2{
+        display: block;
+    }
+    nav{
+        position: absolute;
+        top: 15%;
+        display: none;
+        background: grey;
+        /* display: block;   */
+      }
+      nav ul li{
+        display: block;
+      }
+      #txt{
+        height: auto;
+        width: auto;
+      }
+      #abt{
+        height: auto;
+        width: auto;
+        margin: 0;
+      }
+      #main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+      }
+      #f1{
+        height: auto;
+        width: 90%;
+        margin-top: 10px;
+      }
+      #mn{
+        height: auto;
+        width: auto;
+        margin: 0;
+      }
+      #mn span{
+        font-size: 10px;
+        /* margin-right: 50px; */
+      }
+      #mn-main{
+        height: auto;
+        width: auto;
+        margin-left: 0;
+      }
+      #f{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 0;
+      }
+      #t{
+        height: auto;
+        width: 90%;
+        margin-left: 0;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+      #asdf{
+        margin-top: 10px;
+        padding: 2px;
+        font-size: 18px;
+      }
+      #se1{
+        height: auto;
+        width: auto;
+        margin-top: 30px;
+      }
+      #se1-main{
+        height: auto;
+        width: auto;
+      }
+      #s{
+        height: auto;
+        /* width: auto; */
+      }
+      #s h1{
+        font-size: 20px;
+      }
+      #s p{
+        font-size: 12px;
+      }
+      #s a{
+        padding: 2px;
+        font-size: 15px;
+      }
+      #form{
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+        border: none;
+      }
+      #main-f{
+        height: auto;
+        width: auto;
+        margin: 0;
+        flex-direction: column-reverse;
+      }
+      #ff{
+        height: auto;
+        width: 80%;
+        margin-left: 0px;
+        border: none;
+      }
+      #ff input{
+        width: 300px;
+      }
+      #ff select{
+        width: 300px;
+      }
+      #ff img{
+        height: 350px;
+        width: 100%;
+      }
+      #rw{
+        height: auto;
+        width: auto;
+        margin-top: 20px;
+      }
+      #rw-main{
+        height: auto;
+        width: 100%;
+        margin: 0;
+        flex-direction: column-reverse;
+      }
+      #r{
+        height: auto;
+        width: 80%;
+      }
+      footer{
+        height: auto;
+        width: auto;
+        margin-top: 20px;
+      }
+      #main-fot{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+      }
+      #f5{
+        height: auto;
+        width: 90%;
+      }
+}
